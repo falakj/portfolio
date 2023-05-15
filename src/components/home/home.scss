@@ -1,0 +1,143 @@
+@import "../../global.scss";
+
+.home{
+    background-color: white;
+    display: flex;
+    margin-right: 100px;
+
+    .left{
+        flex: 0.3;
+        overflow: hidden;
+
+        .imgContainer{
+            width: 17%;
+         
+            height: auto;
+            display: flex;
+            align-items: flex-end;
+            position: absolute;
+            margin-top: 5%;
+            margin-left: 9%;
+            margin-bottom: 20px;
+                
+
+            img{
+                width: auto;
+                height: auto;
+
+            }
+        }
+
+        .icons{
+            display: flex;
+            margin-top: 145%;
+            margin-left: 30%;
+           
+            justify-content: space-between;
+        }
+        
+    }
+
+    .right{
+        flex: 0.7;
+        overflow: hidden;
+        margin-top: 5%;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 90px;
+
+            .itemContainer{
+                display: flex;
+                align-items: center;
+                padding-bottom: 15px;
+
+                .icon{
+                    margin-right: 5px;
+                }
+
+                span{
+                    font-size: 28px;
+                    font-weight: 300;
+                }
+
+                span::after{
+                    content:"Falak.";
+                    color: #e7717d;
+                    font-weight: 500;
+                }
+            }
+
+            .t1{
+                font-size: 28px;
+                font-weight: 300;
+                margin-bottom: 15px;
+            }
+
+            .t2{
+                font-size: 28px;
+                font-weight: 300;
+                margin-bottom: 100px;
+            
+            
+            }
+        }
+
+        .button{
+            display: block;
+                margin: 0 auto;
+                
+                background-color: #fff;
+                font-size: 16px;
+                font-weight: 300;
+                border: #212121 1.7px solid;
+                border-radius: 33px;
+                padding: 13px 30px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            
+                &:hover {
+                    background-color: #212121;
+                    color: #fff;
+                    transition-duration: 600ms;
+                }
+        }
+           
+       
+
+        .more{
+            .mr{ 
+                text-decoration: none;
+                 color: #646464; }
+            display: flex;
+            align-items: center;
+            margin-left: 70%;
+            margin-top: -4%;
+            font-size: 18px;
+            font-weight: 300;
+            //color: #646464;
+            cursor: pointer;
+
+            .arr{
+                margin-left: 10px;
+                
+            }
+        
+        }
+
+        .more:hover{
+            .mr{
+
+            color: $mainColor;
+            font-weight: 400;
+            transition: 300ms ease-in-out;
+            }
+            
+
+        }
+    }
+}

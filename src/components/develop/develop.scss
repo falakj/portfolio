@@ -1,0 +1,27 @@
+@import "../../global.scss";
+
+.develop{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    overflow: hidden;
+
+    .dev{
+        overflow: hidden;
+        color:$mainColor;
+        font-size: 28px;
+        font-weight: 400;
+        position: relative;
+        padding-top: 100px;
+        padding-left: 90px;
+    }
+
+   .line{
+    border-bottom: 1.3px solid #e7717d;
+    display: block;
+    margin-right: 85.5%;
+    margin-top: -15px;
+
+   }
+}

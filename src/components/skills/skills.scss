@@ -1,0 +1,60 @@
+@import "../../global.scss";
+
+.skills{
+    background-color: white;
+    margin-left: 100px;
+    .dev{
+        overflow: hidden;
+        color:$mainColor;
+        font-size: 28px;
+        font-weight: 400;
+        position: relative;
+        padding-top: 100px;
+        margin-left: 100px;
+    
+    }
+
+   .line{
+    border-bottom: 1.3px solid #e7717d;
+    display: block;
+    margin-right: 94.9%;
+    margin-top: -15px;
+    margin-left: -3px;
+
+   }
+
+   .line1{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 3px;
+    margin-left: 9px;
+    margin-right: 211px;
+}
+
+.gb{
+    margin-right: 166px;
+}
+
+.gb1{
+    margin-right: 160px;
+}
+
+
+
+.line2{
+    border-bottom: 1px solid #e7717d;
+    display: block;
+    margin-right: 43.5%;
+    margin-top: 38px;
+    margin-left: 100px;
+
+   }
+
+
+}

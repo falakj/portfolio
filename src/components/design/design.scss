@@ -1,0 +1,36 @@
+@import "../../global.scss";
+
+.design{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    ::-webkit-scrollbar {
+            display: none;
+        }
+    //overflow: hidden;
+
+    .des{
+        overflow: hidden;
+        color:$mainColor;
+        font-size: 28px;
+        font-weight: 400;
+        position: relative;
+        padding-top: 100px;
+        padding-left: 100px;
+        
+    
+    }
+
+   .line{
+    border-bottom: 1.3px solid #e7717d;
+    display: block;
+    margin-right: 95%;
+    margin-top: -15px;
+
+   }
+
+   
+
+   
+}
